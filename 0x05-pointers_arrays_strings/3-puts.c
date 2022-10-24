@@ -1,6 +1,6 @@
 /*
  * File: 3-puts.c
- :wq*/
+*/
 
 #include "main.h"
 
