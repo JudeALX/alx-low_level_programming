@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "main.h"
-#include <limits.h>
+
 /**
  * malloc_checked - Entry Point
  * @b: input amount
@@ -9,11 +9,11 @@
  */
 void *malloc_checked(unsigned int b)
 {
-	void *n;
+void *n;
 
-	n = malloc(b);
+n = malloc(b);
 
-	if (n == NULL)
-		exit(98);
-	return (n);
+if (n == NULL)
+exit(98);
+return (n);
 }
